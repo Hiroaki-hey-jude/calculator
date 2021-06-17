@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _output = '0';
     }else if(buttonText == '.'){
       if(_output.contains('.')){
-        print('it already contains, I am sorry');
+        print('it already contains, I am sorry, am i correct?');
         return;
       }else{
         _output = _output + buttonText;
