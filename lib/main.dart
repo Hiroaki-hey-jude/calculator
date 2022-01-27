@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(
       child: Scaffold(
       appBar: AppBar(
-        title: Text('calculator'),
+        title: Text('計算機'),
       ),
       body: Container(
         child: Column(
